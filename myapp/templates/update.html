@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block body %}
+<div class="form my-5 ">
+    <h1 class="mb-5">Update</h1>
+    <form class="update" action="" method="post">
+        {% csrf_token %}
+        {{frm.as_p}}
+        <div class="d-flex justify-content-center">
+            <button type="submit" class="btn btn-dark w-25">Submit</button>
+        </div>
+        <a href="/apoinment/">Return to Appointment</a>
+    </form>
+</div>
+{% endblock body %}

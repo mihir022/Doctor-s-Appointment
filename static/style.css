@@ -1,0 +1,82 @@
+body{
+    background-color:#f2f3f5;
+}
+.main{
+    width: 100%;
+    padding:30px 50px 100px;
+
+}
+.main .card{
+    height:450px;
+    width:24%;
+    margin:0 20px;
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.5);
+-moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.5);
+box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.5);
+border-radius:20px;
+text-align:center;
+border:none;
+}
+.main .card p{
+    margin-bottom:5px;
+    font-weight:600;
+}
+.btn{
+    margin-top:10px;
+}
+h1{
+    font-size:50px;
+    margin-top:30px;
+    text-align:center;
+    font-weight:bold;
+}
+.footer{
+    padding:0 30px 30px;
+    text-align:center;
+    background-color:#212529;
+    color:#f8f9fa;
+}
+.footer .card-header{
+    padding:20px;
+    font-weight:bold;
+    font-size:30px;
+}
+.footer .card-body{
+    font-size:1.9rem;
+}
+.form{
+    padding:20px;
+    width:50%;
+    margin:0 auto;
+    background-color:white;
+    border-radius:20px;
+}
+.form label{
+    font-weight:bold;
+}
+.form input[type="submit"]{
+    margin-left:40%;
+}
+
+.form select{
+    padding:5px;
+    width:100%;
+    border:1px solid #ced4da;
+}
+table{
+    border:1px solid #ced4da;
+}
+table tr,td{
+    border:none;
+    border:1px solid #ced4da;
+}
+form a{
+    color:#212529;
+    font-size:20px;
+}
+
+.update input{
+    padding:5px;
+    width:100%;
+    border:1px solid #ced4da;
+}

@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<h1 class="mb-5">Welcome we are happy to help you</h1>
+<div class="d-flex main">
+
+  {% for x in doctor %}
+
+  <div class="card">
+    <img style="height: 250px;width:100%;border-radius: 20px 20px 0 0;" src="{{x.img.url}}" class="card-img-top"
+      alt="...">
+    <div class="card-body h-24">
+      <h3 class="card-title">{{x.name}}</h3>
+      <p class="card-text">{{x.speciality}}</p>
+      <p class="card-text">{{x.address}}</p>
+      <a href="{% url 'apoinment'%}" class="btn btn-dark">Apointment Book</a>
+    </div>
+  </div>
+  {% endfor %}
+
+
+</div>
+{% endblock body %}
